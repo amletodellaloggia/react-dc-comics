@@ -21,7 +21,7 @@ main {
 }
 
 .container-fluid {
-  width: 100%;
+  width: calc(100/2);
   display: flex;
 }
 
@@ -50,15 +50,14 @@ header {
   padding: 30px;
 }
 
-ul {
+#menu {
   display: flex;
   justify-content: center;
-  margin: 30px;
   padding: 0px;
   list-style: none;
 }
 
-ul li {
+#menu li {
   padding: 10px;
 }
 
@@ -71,6 +70,8 @@ ul li {
 }
 
 .container-blue {
+  width: 100%;
+  padding: 30px;
   background-color: #0282F9;
   display: flex;
   justify-content: center;
@@ -88,7 +89,34 @@ ul li {
   color: white;
 }
 
-.container-grey {
+.container-background {
+  max-width: 100%;
   background-image: url(/public/img/footer-bg.jpg);
-  background-color: #1C1C1C;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.container-background h2{
+color: white;
+padding-bottom: 10px;
+}
+
+.container-background ul{
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #797979;
+  justify-content: center;
+  list-style: none;
+  font-size: smaller;
+  padding-right: 30px;
+}
+
+.container-background ul li{
+  padding-bottom: 5px;
+}
+
+.container-grey {
+  background-color: #303030;
+  height: 200px;
 }

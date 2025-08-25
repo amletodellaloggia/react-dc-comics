@@ -8,3 +8,56 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+main {
+  text-align: center;
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+}
+
+header {
+  padding: 20px 0xp;
+}
+
+.header-col {
+  width: 50%;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+#menu li a {
+  color: #292929;
+  text-decoration: none;
+}
+
+#logo img{
+  width: 150px;
+  vertical-align: middle;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+}
+
+#menu li a.active, #menu li a:hover {
+  color: #0282F9;
+}
+
+.align-items-center {
+  align-items: center;
+}

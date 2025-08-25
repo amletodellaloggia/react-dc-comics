@@ -9,8 +9,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 main {
-  padding: 20px 0px;
   text-align: center;
   background-color: #1C1C1C;
   height: 25vh; /* Test Main */
@@ -66,15 +70,10 @@ ul li {
   align-items: center;
 }
 
-.container {
+.container-blue {
   background-color: #0282F9;
-  height: 25vh; /* Test */
   display: flex;
   justify-content: center;
-}
-
-footer {
-  padding: 20px 0px;
 }
 
 .footer-col {
@@ -89,7 +88,7 @@ footer {
   color: white;
 }
 
-.links-container {
-  display: flex;
+.container-grey {
   background-image: url(/public/img/footer-bg.jpg);
+  background-color: #1C1C1C;
 }

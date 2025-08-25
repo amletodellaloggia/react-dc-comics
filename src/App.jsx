@@ -1,7 +1,3 @@
-function App() {
-  return
-  <h1>React DC Comics</h1>
+function App() {}
 
-}
-
-export default App
+export default App;

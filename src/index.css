@@ -1,5 +1,5 @@
 /* CSS Reset */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,13 +16,14 @@ img {
 
 main {
   text-align: center;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   height: 25vh; /* Test Main */
 }
 
 .container-fluid {
-  width: calc(100/2);
   display: flex;
+  max-width: 1200px;
+  padding: 0px 30px;
 }
 
 header {
@@ -44,7 +45,7 @@ header {
   text-decoration: none;
 }
 
-#logo img{
+#logo img {
   width: 150px;
   vertical-align: middle;
   padding: 30px;
@@ -61,48 +62,58 @@ header {
   padding: 10px;
 }
 
-#menu li a.active, #menu li a:hover {
-  color: #0282F9;
+#menu li a.active,
+#menu li a:hover {
+  color: #0282f9;
 }
 
 .align-items-center {
   align-items: center;
 }
 
-.container-blue {
-  width: 100%;
-  padding: 30px;
-  background-color: #0282F9;
-  display: flex;
-  justify-content: center;
+.container {
+  max-width: 100%;
 }
 
-.footer-col {
+.container-blue {
+  background-color: #0282f9;
   display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
 }
-.card {
+
+.card { 
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .card p {
+  font-size: 12px;
   padding: 10px;
   color: white;
+  white-space: nowrap;
+}
+
+.card img {
+ width: 40px;
+ height: 40px;
+ object-fit: contain;
 }
 
 .container-background {
-  max-width: 100%;
   background-image: url(/public/img/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px;
 }
 
-.container-background h2{
-color: white;
-padding-bottom: 10px;
+.container-background h2 {
+  color: white;
+  padding-bottom: 10px;
 }
 
-.container-background ul{
+.container-background ul {
   flex-direction: column;
   flex-wrap: wrap;
   color: #797979;
@@ -112,7 +123,7 @@ padding-bottom: 10px;
   padding-right: 30px;
 }
 
-.container-background ul li{
+.container-background ul li {
   padding-bottom: 5px;
 }
 

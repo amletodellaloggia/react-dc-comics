@@ -12,6 +12,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  
 }
 
 main {
@@ -23,11 +24,11 @@ main {
 .container-fluid {
   display: flex;
   max-width: 1200px;
-  padding: 0px 30px;
+  padding: 0px auto;
 }
 
 header {
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 .header-col {
@@ -38,11 +39,16 @@ header {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
+  height: 100%;
+  padding-top: 55px;
 }
 
 #menu li a {
   color: #292929;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 #logo img {
@@ -60,11 +66,13 @@ header {
 
 #menu li {
   padding: 10px;
+  height: 100%;
 }
 
 #menu li a.active,
 #menu li a:hover {
   color: #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 
 .align-items-center {
@@ -96,8 +104,8 @@ header {
 }
 
 .card img {
- width: 40px;
- height: 40px;
+ width: 50px;
+ height: 50px;
  object-fit: contain;
 }
 
@@ -106,6 +114,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px;
+  display: flex;
 }
 
 .container-background h2 {
@@ -126,6 +135,15 @@ header {
 .container-background ul li {
   padding-bottom: 5px;
 }
+
+.container-background .container-fluid{
+  width: 50%;
+}
+.container-dc {
+  background-image: url(/public/img/dc-logo-bg.png);
+  
+}
+
 
 .container-grey {
   background-color: #303030;

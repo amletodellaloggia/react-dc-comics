@@ -114,6 +114,12 @@ main {
   /* padding: 20px 0px; */
 }
 
+.comic-card{
+  width: 20%;
+}
+
+
+/* FOOTER */
 .top-footer {
   background-color: #0282f9;
   padding: 30px 0;

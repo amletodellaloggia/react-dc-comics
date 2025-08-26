@@ -110,11 +110,11 @@ const Footer = () => {
 				<div className="col-50-links">
 					<a href="#">FOLLOW US</a>
 					<div className="footer-social-list">
-						<img src="public\img\footer-facebook.png" alt="Facebook" />
-						<img src="public\img\footer-twitter.png" alt="Twitter" />
-						<img src="public\img\footer-youtube.png" alt="YouTube" />
-						<img src="public\img\footer-pinterest.png" alt="Pinterest" />
-						<img src="public/img/footer-periscope.png" alt="Periscope" />
+						<img src="\img\footer-facebook.png" alt="Facebook" />
+						<img src="\img\footer-twitter.png" alt="Twitter" />
+						<img src="\img\footer-youtube.png" alt="YouTube" />
+						<img src="\img\footer-pinterest.png" alt="Pinterest" />
+						<img src="/img/footer-periscope.png" alt="Periscope" />
 					</div>
 				</div>
 			</div>

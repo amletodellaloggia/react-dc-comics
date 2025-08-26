@@ -101,10 +101,25 @@ const Footer = () => {
       </div>
 
       <div className="bottom-footer">
-        <div className="container-center">
-          <span>© DC Comics</span>
+          <div className="container">
+			<div className="row">
+				<div className="col-50-follow">
+					<div className="sign-up">
+					<a className="footer-sign-up" href="#">SIGN-UP NOW!</a></div>
+				</div>
+				<div className="col-50-links">
+					<a href="#">FOLLOW US</a>
+					<div className="footer-social-list">
+						<img src="public\img\footer-facebook.png" alt="Facebook" />
+						<img src="public\img\footer-twitter.png" alt="Twitter" />
+						<img src="public\img\footer-youtube.png" alt="YouTube" />
+						<img src="public\img\footer-pinterest.png" alt="Pinterest" />
+						<img src="public/img/footer-periscope.png" alt="Periscope" />
+					</div>
+				</div>
+			</div>
+		  </div>
         </div>
-      </div>
     </footer>
   );
 };

@@ -1,28 +1,13 @@
 /* CSS Reset */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  
-}
-
-main {
-  text-align: center;
-  background-color: #1c1c1c;
-}
-
-main .container-fluid {
-  background-color: #1c1c1c;
-  height: 200px
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .row {
@@ -30,19 +15,23 @@ main .container-fluid {
   flex-wrap: wrap;
 }
 
-.container-fluid {
-  display: flex;
-  max-width: 1200px;
-  padding: 0px auto;
+.col-25 {
+  width: 25%;
 }
 
-header {
-  padding: 15px 0px;
-}
-
-.header-col {
+.col-50 {
   width: 50%;
 }
+
+.col-75 {
+  width: 75%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+/* SPECIAL */
 
 #menu {
   display: flex;
@@ -52,7 +41,11 @@ header {
   padding-top: 55px;
 }
 
-#menu li a {
+#menu li{
+  margin: 0px 20px;
+}
+
+#menu li a{
   color: #292929;
   text-decoration: none;
   text-transform: uppercase;
@@ -60,47 +53,104 @@ header {
   font-size: 16px;
 }
 
-#logo img {
-  width: 150px;
-  vertical-align: middle;
-  padding: 30px;
+/* HEADER */
+#logo-header {
+  padding: 15px;
 }
 
-#menu {
-  display: flex;
+/* UTILS */
+.justify-center {
   justify-content: center;
-  padding: 0px;
-  list-style: none;
-}
-
-#menu li {
-  padding: 10px;
-  height: 100%;
-}
-
-#menu li a.active,
-#menu li a:hover {
-  color: #0282f9;
-  border-bottom: 5px solid #0282f9;
 }
 
 .align-items-center {
   align-items: center;
 }
 
-.container {
-  max-width: 100%;
+
+#menu li:hover {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 
-.container-blue {
+/* BODY  */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* MAIN */
+main {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* .jumbotron {
+  width: 100%;
+  height: 450px;
+  background-image: url(/public/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 100%;
+  display: block;
+}
+
+
+main .container-fluid {
+  background-color: #1c1c1c;
+  height: 400px
+} */
+
+/* HEADER */
+
+
+
+
+
+/* FOOTER */
+
+.top-footer {
   background-color: #0282f9;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
-.card { 
+.icons-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons-list img{
+  width: 75px;
+  height: 75px;
+  vertical-align: middle;
+  margin-right: 15px;
+  object-fit: contain;
+}
+
+.icons-list span{
+  vertical-align: middle;
+  color: white;
+  text-transform: uppercase;
+}
+
+.middle-footer{
+  height: 370px;
+  background-image: url(/public/img/footer-bg.jpg);
+}
+
+.middle-footer-dc-logo{
+  background-image: url(/public/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+/* .card { 
   display: flex;
   align-items: center;
   gap: 10px;
@@ -157,4 +207,4 @@ header {
 .container-grey {
   background-color: #303030;
   height: 200px;
-}
+} */

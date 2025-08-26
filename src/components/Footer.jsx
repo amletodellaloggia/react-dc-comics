@@ -47,48 +47,55 @@ const Footer = () => {
       </div>
       <div className="middle-footer">
         <div className="container">
-          <div className="row">
-            <div className="col-50">
-				
-              <ul>
-                <b>DC COMICS</b>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Videos</li>
-                <li>News</li>
-              </ul>
-              <ul>
-                <b>SHOP</b>
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
-              </ul>
+          <div className="row-footer">
+            <div className="col-50-footer">
+              <div className="col-33-footer">
+                <ul>
+                  <b>DC COMICS</b>
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+                <ul>
+                  <b>SHOP</b>
+                  <li>Shop DC</li>
+                  <li>Shop DC Collectibles</li>
+                </ul>
+              </div>
 
-              <ul>
-                <b>DC</b>
-                <li>Terms Of Use</li>
-                <li>Privacy Policy (New)</li>
-                <li>Ad Choices</li>
-                <li>Advertising</li>
-                <li>Jobs</li>
-                <li>Subscriptions</li>
-                <li>CPSC Certificates</li>
-                <li>Ratings</li>
-                <li>Shop Help</li>
-                <li>Contact Us</li>
-              </ul>
-              <ul>
-                <b>SITES</b>
-                <li>DC</li>
-                <li>MAD Magazine</li>
-                <li>DC Kids</li>
-                <li>DC Universe</li>
-                <li>DC Power Visa</li>
-              </ul>
+              <div className="col-33-footer">
+                <ul>
+                  <b>DC</b>
+                  <li>Terms Of Use</li>
+                  <li>Privacy Policy (New)</li>
+                  <li>Ad Choices</li>
+                  <li>Advertising</li>
+                  <li>Jobs</li>
+                  <li>Subscriptions</li>
+                  <li>CPSC Certificates</li>
+                  <li>Ratings</li>
+                  <li>Shop Help</li>
+                  <li>Contact Us</li>
+                </ul>
+              </div>
+              <div className="col-33-footer">
+                <ul>
+                  <b>SITES</b>
+                  <li>DC</li>
+                  <li>MAD Magazine</li>
+                  <li>DC Kids</li>
+                  <li>DC Universe</li>
+                  <li>DC Power Visa</li>
+                </ul>
+              </div>
             </div>
-            <div className="col-50 middle-footer-dc-logo"></div>
+            <div className="middle-footer-dc-logo">
+		<img src="/public/img/dc-logo-bg.png" alt="Footer DC Logo" />
+			</div>
           </div>
         </div>
       </div>

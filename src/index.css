@@ -15,12 +15,26 @@
   flex-wrap: wrap;
 }
 
+.row-footer{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .col-25 {
   width: 25%;
 }
 
+.col-33-footer {
+  width: 33%;
+}
 .col-50 {
   width: 50%;
+}
+.col-50-footer {
+  width: 50%;
+  display: flex;
+  padding-top: 40px;
+  z-index: 10;
 }
 
 .col-75 {
@@ -131,9 +145,11 @@ main {
 }
 
 .middle-footer-dc-logo {
-  background-image: url(/public/img/dc-logo-bg.png);
+  width: 50%;
+  background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   bottom: 100px;
-  left: 50px;
+  left: 30px;
+  z-index: 9;
 }

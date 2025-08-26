@@ -18,7 +18,16 @@ img {
 main {
   text-align: center;
   background-color: #1c1c1c;
-  height: 25vh; /* Test Main */
+}
+
+main .container-fluid {
+  background-color: #1c1c1c;
+  height: 200px
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container-fluid {

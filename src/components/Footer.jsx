@@ -49,8 +49,9 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-50">
+				
               <ul>
-                <h2>DC COMICS</h2>
+                <b>DC COMICS</b>
                 <li>Characters</li>
                 <li>Comics</li>
                 <li>Movies</li>
@@ -60,12 +61,13 @@ const Footer = () => {
                 <li>News</li>
               </ul>
               <ul>
-                <h2>SHOP</h2>
+                <b>SHOP</b>
                 <li>Shop DC</li>
                 <li>Shop DC Collectibles</li>
               </ul>
+
               <ul>
-                <h2>DC</h2>
+                <b>DC</b>
                 <li>Terms Of Use</li>
                 <li>Privacy Policy (New)</li>
                 <li>Ad Choices</li>
@@ -78,7 +80,7 @@ const Footer = () => {
                 <li>Contact Us</li>
               </ul>
               <ul>
-                <h2>SITES</h2>
+                <b>SITES</b>
                 <li>DC</li>
                 <li>MAD Magazine</li>
                 <li>DC Kids</li>

@@ -183,11 +183,10 @@ const ComicsList = () => {
 
   const renderComicsCard = () => {
     return comics.map((comic) => {
-      const {id, src, title} = comic;
       return (
-                    <div key={id} className="col-16">
-                      <ComicsCard />
-                      </div>
+        <div key={comic.id} className="col-16">
+          <ComicsCard comic={comic} />
+        </div>
       );
     });
   };
@@ -195,9 +194,7 @@ const ComicsList = () => {
   return (
     <div id="comics-list">
       <div className="container">
-        <div className="row">
-          {renderComicsCard()}
-        </div>
+        <div className="row">{renderComicsCard()}</div>
       </div>
     </div>
   );

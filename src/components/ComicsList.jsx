@@ -1,4 +1,5 @@
 import React from "react";
+import ComicsCard from "./ComicsCard";
 
 const ComicsList = () => {
   const comics = [
@@ -178,18 +179,24 @@ const ComicsList = () => {
     },
   ];
 
+  // Definisco funzione per renderizzare le card dei fumetti
+
+  const renderComicsCard = () => {
+    return comics.map((comic) => {
+      const {id, src, title} = comic;
+      return (
+                    <div key={id} className="col-16">
+                      <ComicsCard />
+                      </div>
+      );
+    });
+  };
+
   return (
     <div id="comics-list">
       <div className="container">
         <div className="row">
-          {comics.map((comic) => (
-            <div key={comic.id} className="col-16">
-              <div className="comics-card">
-                <img src={comic.thumb} alt={comic.series} />
-                <h3>{comic.series}</h3>
-              </div>
-            </div>
-          ))}
+          {renderComicsCard()}
         </div>
       </div>
     </div>
